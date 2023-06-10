@@ -20,7 +20,9 @@ dependencies {
     testImplementation("io.micronaut:micronaut-http-client")
 
 }
-
+wrapper{
+gradleVersion '8.1.1'
+}
 
 application {
     mainClass.set("CourseProject.Application")
